@@ -8,7 +8,7 @@
  - Aninix - UI animation
  - Lottie Jetpack-compose
 ### Screenshot
-![Screenshot](screenshot.png)
+![Screenshot](Screenshot.jpg)
 
 ### Recording
 

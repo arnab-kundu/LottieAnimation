@@ -33,14 +33,14 @@ fun MainScreen() {
         composition = composition, iterations = LottieConstants.IterateForever
     )
 
-    val infiniteTransition = rememberInfiniteTransition()
+    val infiniteTransition = rememberInfiniteTransition(label = "")
     val color by infiniteTransition.animateColor(
         initialValue = Yellow,
         targetValue = Green,
         animationSpec = infiniteRepeatable(
-            animation = tween(durationMillis = 5000, easing = LinearEasing),
+            animation = tween(durationMillis = 2000, easing = LinearEasing),
             repeatMode = RepeatMode.Reverse,
-        )
+        ), label = ""
     )
 
     Box(
@@ -127,13 +127,15 @@ fun MainScreen() {
                     modifier = Modifier
                         .height(54.dp)
                         .fillMaxWidth(),
-                    onClick = { /*TODO*/ },
+                    onClick = { },
                     colors = ButtonDefaults.buttonColors(backgroundColor = color),
                     shape = CircleShape
                 ) {
                     Text(
                         text = "Recipes, Now!",
-                        color = Color.Black
+                        color = Color.Black,
+                        fontSize = 18.sp,
+                        fontWeight = FontWeight.Bold
                     )
                 }
 

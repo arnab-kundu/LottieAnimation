@@ -1,7 +1,7 @@
 # Lottie Animation
 
 ### Development Tools
- - Android Studio Flamingo | 2022.2.1 Patch 2
+ - Android Studio Iguana | 2023.2.1
 
 ### Inspired by
  - An Youtube tutorial. Here is the [link](https://www.youtube.com/watch?v=N3t7SIlFPrQ)
@@ -11,9 +11,8 @@
  - Aninix - UI animation
  - Lottie Jetpack-compose
 ### Screenshot
-![Screenshot](./screenshots/screenshot_01.jpg)
+<img src="./screenshots/screenshot_01.png" alt="Screenshot" width="150"/> <img src="./screenshots/screenshot_02.png" alt="Screenshot" width="150"/>
 
 ### Recording
-![ScreenRecording](./screenshots/screen_recording.webm)
-
+<img src="./screenshots/screen_recording.gif" alt="Screenshot" width="150">
 
